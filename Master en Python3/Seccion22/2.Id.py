@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import time
 
-s = Service("C:\\Users\\Usuario\\PycharmProjects\\PruebasTesting\\Drivers\\chromedriver.exe")
+s = Service("C:\\Users\\santa\\Downloads\\Selenium\\chromedriver.exe")
 driver = webdriver.Chrome(service=s)
 driver.get("https://www.udemy.com/join/login-popup/?skip_suggest=1&locale=es_ES&next=https%3A%2F%2Fwww.udemy.com%2Fmobile%2Fipad%2F&response_type=html")
 time.sleep(1)

@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-controlador = webdriver.Firefox(executable_path="Drivers/geckodriver.exe")
+controlador = webdriver.Chrome(executable_path="C:\\Users\\santa\\Downloads\\Selenium\\chromedriver.exe")
 
 controlador.get("https://www.udemy.com/join/login-popup/?locale=es_ES&response_type=html&next=https%3A%2F%2Fwww.udemy.com%2F")
 time.sleep(1)
